@@ -53,7 +53,7 @@ namespace FruitCopyBackTest.Controllers
             {
                 save.SaveJson = request.SaveJson;
                 save.Version = request.Version;
-                save.UpdatedAtUtc = DateTime.Now;
+                save.UpdatedAtUtc = DateTime.UtcNow;
             }
 
             await _db.SaveChangesAsync();

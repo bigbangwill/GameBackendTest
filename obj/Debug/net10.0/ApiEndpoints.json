@@ -16,6 +16,94 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FruitCopyBackTest.Controllers.LeaderboardsController",
+    "Method": "GetPage",
+    "RelativePath": "api/leaderboards/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FruitCopyBackTest.DTO.Leaderboards.LeaderboardPageResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.LeaderboardsController",
+    "Method": "GetMe",
+    "RelativePath": "api/leaderboards/{key}/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "playerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FruitCopyBackTest.DTO.Leaderboards.LeaderboardEntryDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.LeaderboardsController",
+    "Method": "Submit",
+    "RelativePath": "api/leaderboards/{key}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "req",
+        "Type": "FruitCopyBackTest.DTO.Leaderboards.SubmitScoreRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FruitCopyBackTest.Controllers.PingController",
     "Method": "Get",
     "RelativePath": "api/Ping",
