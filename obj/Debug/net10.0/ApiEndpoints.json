@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.EchoController",
+    "Method": "Post",
+    "RelativePath": "api/Echo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FruitCopyBackTest.Controllers.EchoController\u002BEchoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.PingController",
+    "Method": "Get",
+    "RelativePath": "api/Ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.PlayerController",
+    "Method": "GetPlayer",
+    "RelativePath": "api/Player/{playerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.PlayerController",
+    "Method": "GetTopPlayers",
+    "RelativePath": "api/Player/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.PlayerSaveController",
+    "Method": "Get",
+    "RelativePath": "api/players/{playerId}/save",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.PlayerSaveController",
+    "Method": "Put",
+    "RelativePath": "api/players/{playerId}/save",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FruitCopyBackTest.Controllers.PlayerSaveController\u002BSaveUpsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

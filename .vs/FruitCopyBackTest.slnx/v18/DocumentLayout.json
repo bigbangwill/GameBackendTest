@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C# Project\\GameBackendTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\controllers\\playersavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:controllers\\playersavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\data\\playersave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:data\\playersave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\controllers\\echocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:controllers\\echocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|d:\\c# project\\gamebackendtest\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85952040-92BF-5909-357D-E3C097E4C799}|FruitCopyBackTest.csproj|solutionrelative:controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerSave.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Data\\PlayerSave.cs",
+              "RelativeDocumentMoniker": "Data\\PlayerSave.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Data\\PlayerSave.cs",
+              "RelativeToolTip": "Data\\PlayerSave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:44:55.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerSaveController.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Controllers\\PlayerSaveController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayerSaveController.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Controllers\\PlayerSaveController.cs",
+              "RelativeToolTip": "Controllers\\PlayerSaveController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:57:45.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T10:47:49.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayerController.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Controllers\\PlayerController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T09:23:04.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EchoController.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Controllers\\EchoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EchoController.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Controllers\\EchoController.cs",
+              "RelativeToolTip": "Controllers\\EchoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T09:06:39.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:27:29.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "D:\\C# Project\\GameBackendTest\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PingController.cs",
+              "ToolTip": "D:\\C# Project\\GameBackendTest\\Controllers\\PingController.cs",
+              "RelativeToolTip": "Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:27:37.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
