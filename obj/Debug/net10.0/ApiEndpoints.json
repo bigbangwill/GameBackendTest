@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "FruitCopyBackTest.Controllers.AuthController",
+    "Method": "RequestOtp",
+    "RelativePath": "api/auth/request-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FruitCopyBackTest.DTO.Auth.RequestOtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FruitCopyBackTest.Controllers.AuthController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FruitCopyBackTest.DTO.Auth.VerifyOtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FruitCopyBackTest.DTO.Auth.TokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FruitCopyBackTest.Controllers.EchoController",
     "Method": "Post",
     "RelativePath": "api/Echo",
@@ -63,11 +105,6 @@
         "Name": "key",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "playerId",
-        "Type": "System.Guid",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitCopyBackTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+332fe0023ff80692448824e4428372ee51e189c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13bdbeb5b17f6a16829e12bf0f1c025d713321e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruitCopyBackTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitCopyBackTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

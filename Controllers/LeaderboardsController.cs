@@ -3,6 +3,8 @@ using FruitCopyBackTest.DTO.Leaderboards;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FruitCopyBackTest.Entities;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace FruitCopyBackTest.Controllers
 {
@@ -103,12 +105,18 @@ namespace FruitCopyBackTest.Controllers
         }
 
         //GET api/Leaderboards/{key}/me?playerId=...
+        [Authorize]
         [HttpGet("{key}/me")]
         public async Task<ActionResult<LeaderboardEntryDto>> GetMe(
             [FromRoute] string key,
-            [FromQuery] Guid playerId,
             CancellationToken ct)
         {
+            var playerIdStr = User.FindFirstValue("playerId");
+            if(string.IsNullOrWhiteSpace(playerIdStr) || !Guid.TryParse(playerIdStr, out var playerId))
+            {
+                return Unauthorized(new { message = "Invalid playerId in token" });
+            }
+
             var leaderboard = await _db.Leaderboards.AsNoTracking().FirstOrDefaultAsync(x => x.Key == key, ct);
 
             if (leaderboard is null)
